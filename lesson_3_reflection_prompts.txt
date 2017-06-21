@@ -1,10 +1,28 @@
 When would you want to use a remote repository rather than keeping all your work local?
-When collaborating with several people. Since it makes it easier to share and review changes 
+
+  When collaborating with several people. Since it makes it easier to share and review changes
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
-fork makes a clone of a repo within github giving credit to the original author
-a clone is just a copy of a local or remote repo
-and a branch is a set of commits within a repo to add a feature to a project
-I'd fork when I want to create my own version of a project but still give credit to the author
-I'd clone when I'm directly contributing to a project
-And finally I'd branch when implementing a new feature in any project
+
+  fork makes a clone of a repo within github giving credit to the original author
+  a clone is just a copy of a local or remote repo
+  and a branch is a set of commits within a repo to add a feature to a project
+  I'd fork when I want to create my own version of a project but still give credit to the author
+  I'd clone when I'm directly contributing to a project
+  And finally I'd branch when implementing a new feature in any project
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  You can work offline with the latest state of a branch without having to worry about merging
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+  You could collaborate directly being right beside your coworkers and inspecting their work
+  It wouldn't require that all team members understand how to use git and github
+  It would be extremely harder to work separately since you wouldn't know which things are affecting each other
+  Unifying every change made by each team member would take an insanely long amount of time if the project is big enough
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  Whenever you are making a new feature in a large enough project to keep master as the most up-to-date working version of the project.
+  It helps compartmentalize tasks when collaborating with others but when working alone on a small project there isn't as much
+  necessity and it may be better to just make changes directly into master.
